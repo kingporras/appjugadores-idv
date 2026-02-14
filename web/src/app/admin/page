@@ -1,0 +1,28 @@
+export default function AdminPage() {
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl bg-white/55 p-5 shadow-sm ring-1 ring-white/40">
+        <h1 className="text-2xl font-extrabold">Admin</h1>
+        <p className="mt-2 text-sm text-black/70">
+          Panel privado con botones: abrir convocatoria, enviar emails, recordatorio y generar imagen IG.
+        </p>
+      </div>
+
+      <div className="grid gap-3 md:grid-cols-2">
+        {[
+          "Reset + abrir convocatoria",
+          "Enviar email convocatoria",
+          "Enviar recordatorio",
+          "Generar imagen IG ahora",
+        ].map((t) => (
+          <button
+            key={t}
+            className="rounded-2xl bg-black px-5 py-4 text-left text-sm font-semibold text-white shadow-sm hover:opacity-90"
+          >
+            {t}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}

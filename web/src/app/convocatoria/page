@@ -1,0 +1,10 @@
+export default function ConvocatoriaPage() {
+  return (
+    <div className="rounded-2xl bg-white/55 p-5 shadow-sm ring-1 ring-white/40">
+      <h1 className="text-2xl font-extrabold">Convocatoria</h1>
+      <p className="mt-2 text-sm text-black/70">
+        Aquí irá el listado Van / No van / Sin responder del próximo partido.
+      </p>
+    </div>
+  );
+}

@@ -1,0 +1,10 @@
+export default function AlineacionPage() {
+  return (
+    <div className="rounded-2xl bg-white/55 p-5 shadow-sm ring-1 ring-white/40">
+      <h1 className="text-2xl font-extrabold">Alineación</h1>
+      <p className="mt-2 text-sm text-black/70">
+        Campo + 2-3-1 / 3-2-1 (solo admin). Aquí también irá el MVP del partido.
+      </p>
+    </div>
+  );
+}
